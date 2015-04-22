@@ -46,6 +46,17 @@ body {
 	border-top: 1px dashed grey;
 }
 
+.list_control {
+	float: right;
+	margin-top: 1.25em;
+	margin-right: 21em;
+}
+
+.list_control > li {
+	display: inline-block;
+	margin-right: 0.75em;
+}
+
 .list {
 	max-height: 11.5em;
 	overflow: scroll;
@@ -74,7 +85,7 @@ li {
 	cursor: pointer;
 }
 
-ul > li:hover {
+.list > li:hover {
 	text-decoration: line-through;
 }
 
