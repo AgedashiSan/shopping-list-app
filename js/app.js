@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 	$('.add').click(function(){
 		if (!$('input').val()){
-			alert("Forgot to type in something?:)");
+			alert("Forgot to type in something? :)");
 		} else {
 			shopping_item	= document.getElementById('item').value;
 			$("ul").prepend("<li>" + shopping_item + "<i class='fa fa-times'></i>" + "</li>");
