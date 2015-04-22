@@ -8,6 +8,7 @@ $(document).ready(function(){
 			shopping_item	= document.getElementById('item').value;
 			$("ul").prepend("<li>" + shopping_item + "<i class='fa fa-times'></i>" + "</li>");
 			$("input").val('');
+			$("p").remove();
 		}
 	});
 	$(document).keyup(function(event){
@@ -17,7 +18,7 @@ $(document).ready(function(){
 	});
 });
 $(document).on('click', ".fa", function(){
-	$(this).parent().remove();
+	$(this).parent().slideUp();
 	return false;
 });
 $(document).on('click', "li", function(){

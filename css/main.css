@@ -18,28 +18,50 @@ body {
 }
 
 #item {
-	width: 20em;
-	height: 1.75em;
+	width: 19em;
+	height: 2em;
 	text-shadow: none;
-	line-height: 1.33;
 	border: 1px solid grey;
 	border-radius: 0.25em;
+	padding-left: 1em;
+	font-weight: 600;
+	font-size: 0.75em;
 }
 
 .add {
 	margin: auto 0.5em;
-	height: 2.15em;
+	height: 2.3em;
 	width: 8em;
 	text-shadow: none;
 	border-style: none;
 	border-radius: 0.25em;
-	line-height: 1.33;
 	background-color: #f15a29;
 	border-color: #f15a29;
 	color: white;
+	font-size: 0.75em;
+}
+
+.list_area {
+	margin: 2em 0.2em;
+	border-top: 1px dashed grey;
+}
+
+p {
+	font-size: 0.75em;
+	color: grey;
+	
+}
+
+input:focus, button:focus {
+	outline: 0;
+}
+
+button:hover {
+	background-color: #fba400;
 }
 
 ul {
+	padding: 0;
 	list-style: none;
 }
 
@@ -47,10 +69,17 @@ li {
 	cursor: pointer;
 }
 
-li:hover {
+ul > li:hover {
 	text-decoration: line-through;
+}
+
+.fa-times {
+	margin-left: 1em;
+	color: grey;
+	font-weight: 30%;
 }
 
 .current {
 	text-decoration: line-through;
+	color: grey;
 }
