@@ -1,5 +1,42 @@
-* {
+body {
+	font-family: "roboto", sans-serif;
+	letter-spacing: 0.03em;
+}
+
+.stage {
+	position: absolute;
+	width: 600px;
+	height: auto;
+	top: 50px;
+	left: 50%;
+	margin-left: -300px;
+	padding: 20px;
 	background-color: white;
+	border: 2px solid grey;
+	border-radius: 0.25em;
+
+}
+
+#item {
+	width: 20em;
+	height: 1.75em;
+	text-shadow: none;
+	line-height: 1.33;
+	border: 1px solid grey;
+	border-radius: 0.25em;
+}
+
+.add {
+	margin: auto 0.5em;
+	height: 2.15em;
+	width: 8em;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 0.25em;
+	line-height: 1.33;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	color: white;
 }
 
 ul {
@@ -12,18 +49,6 @@ li {
 
 li:hover {
 	text-decoration: line-through;
-}
-
-.stage {
-	position: absolute;
-	width: 600px;
-	height: auto;
-	top: 50px;
-	left: 50%;
-	margin-left: -300px;
-	background-color: white;
-	border: 1px solid grey;
-	padding: 20px;
 }
 
 .current {
