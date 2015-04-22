@@ -89,10 +89,17 @@ li {
 	text-decoration: line-through;
 }
 
+.fa-check {
+	color: #558b2f;
+}
+
+.fa-repeat {
+	color: #e28f03;
+}
+
 .fa-times {
 	margin-left: 1em;
 	color: grey;
-	font-weight: 30%;
 }
 
 .current {
